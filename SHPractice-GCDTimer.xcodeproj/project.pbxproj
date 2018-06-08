@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14038EE220CAAB2D00363C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14038EE120CAAB2D00363C03 /* AppDelegate.m */; };
+		14038EE520CAAB2D00363C03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14038EE420CAAB2D00363C03 /* ViewController.m */; };
+		14038EE820CAAB2D00363C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14038EE620CAAB2D00363C03 /* Main.storyboard */; };
+		14038EEA20CAAB2E00363C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14038EE920CAAB2E00363C03 /* Assets.xcassets */; };
+		14038EED20CAAB2E00363C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14038EEB20CAAB2E00363C03 /* LaunchScreen.storyboard */; };
+		14038EF020CAAB2E00363C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14038EEF20CAAB2E00363C03 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14038EDD20CAAB2D00363C03 /* SHPractice-GCDTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHPractice-GCDTimer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14038EE020CAAB2D00363C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14038EE120CAAB2D00363C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14038EE320CAAB2D00363C03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14038EE420CAAB2D00363C03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14038EE720CAAB2D00363C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14038EE920CAAB2E00363C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14038EEC20CAAB2E00363C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14038EEE20CAAB2E00363C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14038EEF20CAAB2E00363C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14038EDA20CAAB2D00363C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14038ED420CAAB2D00363C03 = {
+			isa = PBXGroup;
+			children = (
+				14038EDF20CAAB2D00363C03 /* SHPractice-GCDTimer */,
+				14038EDE20CAAB2D00363C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14038EDE20CAAB2D00363C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14038EDD20CAAB2D00363C03 /* SHPractice-GCDTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14038EDF20CAAB2D00363C03 /* SHPractice-GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				14038EE020CAAB2D00363C03 /* AppDelegate.h */,
+				14038EE120CAAB2D00363C03 /* AppDelegate.m */,
+				14038EE320CAAB2D00363C03 /* ViewController.h */,
+				14038EE420CAAB2D00363C03 /* ViewController.m */,
+				14038EE620CAAB2D00363C03 /* Main.storyboard */,
+				14038EE920CAAB2E00363C03 /* Assets.xcassets */,
+				14038EEB20CAAB2E00363C03 /* LaunchScreen.storyboard */,
+				14038EEE20CAAB2E00363C03 /* Info.plist */,
+				14038EEF20CAAB2E00363C03 /* main.m */,
+			);
+			path = "SHPractice-GCDTimer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14038EDC20CAAB2D00363C03 /* SHPractice-GCDTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14038EF320CAAB2E00363C03 /* Build configuration list for PBXNativeTarget "SHPractice-GCDTimer" */;
+			buildPhases = (
+				14038ED920CAAB2D00363C03 /* Sources */,
+				14038EDA20CAAB2D00363C03 /* Frameworks */,
+				14038EDB20CAAB2D00363C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SHPractice-GCDTimer";
+			productName = "SHPractice-GCDTimer";
+			productReference = 14038EDD20CAAB2D00363C03 /* SHPractice-GCDTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14038ED520CAAB2D00363C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = shine;
+				TargetAttributes = {
+					14038EDC20CAAB2D00363C03 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 14038ED820CAAB2D00363C03 /* Build configuration list for PBXProject "SHPractice-GCDTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14038ED420CAAB2D00363C03;
+			productRefGroup = 14038EDE20CAAB2D00363C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14038EDC20CAAB2D00363C03 /* SHPractice-GCDTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14038EDB20CAAB2D00363C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14038EED20CAAB2E00363C03 /* LaunchScreen.storyboard in Resources */,
+				14038EEA20CAAB2E00363C03 /* Assets.xcassets in Resources */,
+				14038EE820CAAB2D00363C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14038ED920CAAB2D00363C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14038EE520CAAB2D00363C03 /* ViewController.m in Sources */,
+				14038EF020CAAB2E00363C03 /* main.m in Sources */,
+				14038EE220CAAB2D00363C03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14038EE620CAAB2D00363C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14038EE720CAAB2D00363C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14038EEB20CAAB2E00363C03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14038EEC20CAAB2E00363C03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14038EF120CAAB2E00363C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14038EF220CAAB2E00363C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14038EF420CAAB2E00363C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YSE3H6NFMJ;
+				INFOPLIST_FILE = "SHPractice-GCDTimer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.testDemo.SHPractice-GCDTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14038EF520CAAB2E00363C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YSE3H6NFMJ;
+				INFOPLIST_FILE = "SHPractice-GCDTimer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.testDemo.SHPractice-GCDTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14038ED820CAAB2D00363C03 /* Build configuration list for PBXProject "SHPractice-GCDTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14038EF120CAAB2E00363C03 /* Debug */,
+				14038EF220CAAB2E00363C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14038EF320CAAB2E00363C03 /* Build configuration list for PBXNativeTarget "SHPractice-GCDTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14038EF420CAAB2E00363C03 /* Debug */,
+				14038EF520CAAB2E00363C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14038ED520CAAB2D00363C03 /* Project object */;
+}
