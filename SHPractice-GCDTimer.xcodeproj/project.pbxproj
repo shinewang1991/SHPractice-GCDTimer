@@ -13,6 +13,7 @@
 		14038EEA20CAAB2E00363C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14038EE920CAAB2E00363C03 /* Assets.xcassets */; };
 		14038EED20CAAB2E00363C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14038EEB20CAAB2E00363C03 /* LaunchScreen.storyboard */; };
 		14038EF020CAAB2E00363C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14038EEF20CAAB2E00363C03 /* main.m */; };
+		14E9A33920CD0CF000922A60 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E9A33820CD0CF000922A60 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		14038EEC20CAAB2E00363C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14038EEE20CAAB2E00363C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14038EEF20CAAB2E00363C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E9A33720CD0CF000922A60 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		14E9A33820CD0CF000922A60 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				14038EE120CAAB2D00363C03 /* AppDelegate.m */,
 				14038EE320CAAB2D00363C03 /* ViewController.h */,
 				14038EE420CAAB2D00363C03 /* ViewController.m */,
+				14E9A33720CD0CF000922A60 /* TestViewController.h */,
+				14E9A33820CD0CF000922A60 /* TestViewController.m */,
 				14038EE620CAAB2D00363C03 /* Main.storyboard */,
 				14038EE920CAAB2E00363C03 /* Assets.xcassets */,
 				14038EEB20CAAB2E00363C03 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				14038EE520CAAB2D00363C03 /* ViewController.m in Sources */,
 				14038EF020CAAB2E00363C03 /* main.m in Sources */,
+				14E9A33920CD0CF000922A60 /* TestViewController.m in Sources */,
 				14038EE220CAAB2D00363C03 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
